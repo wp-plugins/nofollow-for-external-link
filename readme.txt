@@ -1,6 +1,6 @@
 === Nofollow for external link ===
 Plugin URI: http://www.cybernetikz.com
-Contributors: CyberNetikz
+Contributors: cybernetikz
 Donate link: 
 Tags: nofollow,link,rel,rel nofollow,seo,nofollow links,external link,external links,nofollow for external link
 Requires at least: 2.9.2
