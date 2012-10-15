@@ -12,7 +12,7 @@ Automatically insert `rel=nofollow` and `target=_blank` to all the external link
 
 == Description ==
 
-Just simple, if you use this plugins, `rel=&quot;nofollow&quot;` and `target=&quot;_blank&quot;` will be insert automatically, for all the external links of your website posts or pages.
+Just simple, if you use this plugins, `rel=nofollow` and `target=_blank` will be insert automatically, for all the external links of your website posts or pages.
 
 == Installation ==
 
