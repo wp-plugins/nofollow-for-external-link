@@ -14,6 +14,16 @@ Automatically insert `rel=nofollow` and `target=_blank` to all the external link
 
 Just simple, if you use this plugins, `rel=nofollow` and `target=_blank` will be insert automatically, for all the external links of your website posts or pages.
 
+= Feature =
+* Add `rel=nofollow` for all the external link of your blog/website posts/pages.
+* Add `target=_blank` for all the external link of your blog/website posts/pages.
+* This plugins will not add `rel=nofollow` and `target=_blank` any of the internal link of your blog/website posts/pages.
+* If you already added `target=_blank` to any post manually, this plugins will not add `target=_blank` for that post.
+
+You can visit out website <a href="http://www.cybernetikz.com/blog/wordpress-plugins-external-links-relnofollow/">cybernetikz.com</a>
+
+Wating for your valuable feedback/comments.
+
 == Installation ==
 
 1. Download the latest zip file and extract the 'nofollow-external-link' directory.
