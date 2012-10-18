@@ -20,7 +20,7 @@ Just simple, if you use this plugins, `rel=nofollow` and `target=_blank` will be
 * This plugins will not add `rel=nofollow` and `target=_blank` any of the internal link of your blog/website posts/pages.
 * If you already added `target=_blank` to any post manually, this plugins will not add `target=_blank` for that post.
 
-You can visit out website <a href="http://www.cybernetikz.com/blog/wordpress-plugins-external-links-relnofollow/">cybernetikz.com</a>
+You can visit our website <a href="http://www.cybernetikz.com/blog/wordpress-plugins-external-links-relnofollow/">cybernetikz.com</a>
 
 Wating for your valuable feedback/comments.
 
