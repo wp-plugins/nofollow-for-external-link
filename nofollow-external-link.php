@@ -18,18 +18,24 @@ function cn_nf_url_parse( $content ) {
 		if( !empty($matches) ) {
 			
 			$srcUrl = get_option('siteurl');
-			$noFollow = ' rel="nofollow" ';
 			for ($i=0; $i < count($matches); $i++)
 			{
 			
 				$tag = $matches[$i][0];
 				$tag2 = $matches[$i][0];
 				$url = $matches[$i][0];
+				
+				$noFollow = '';
 
 				$pattern = '/target\s*=\s*"\s*_blank\s*"/';
 				preg_match($pattern, $tag2, $match, PREG_OFFSET_CAPTURE);
 				if( count($match) < 1 )
-					$noFollow = ' rel="nofollow" target="_blank" ';
+					$noFollow .= ' target="_blank" ';
+					
+				$pattern = '/rel\s*=\s*"\s*[n|d]ofollow\s*"/';
+				preg_match($pattern, $tag2, $match, PREG_OFFSET_CAPTURE);
+				if( count($match) < 1 )
+					$noFollow .= ' rel="nofollow" ';
 			
 				$pos = strpos($url,$srcUrl);
 				if ($pos === false) {
@@ -40,6 +46,7 @@ function cn_nf_url_parse( $content ) {
 			}
 		}
 	}
+	
 	$content = str_replace(']]>', ']]&gt;', $content);
 	return $content;
 
