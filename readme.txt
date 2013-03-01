@@ -18,6 +18,7 @@ Just simple, if you use this plugins, `rel=nofollow` and `target=_blank` will be
 * Add `rel=nofollow` for all the external link of your blog/website posts/pages.
 * Add `target=_blank` for all the external link of your blog/website posts/pages.
 * This plugins will not add `rel=nofollow` and `target=_blank` any of the internal link of your blog/website posts/pages.
+* If you already added `rel=dofollow` to any post manually, this plugins will not add `rel=nofollow` for that post.
 * If you already added `target=_blank` to any post manually, this plugins will not add `target=_blank` for that post.
 
 You can visit our website <a href="http://www.cybernetikz.com/blog/wordpress-plugins-external-links-relnofollow/">cybernetikz.com</a>
