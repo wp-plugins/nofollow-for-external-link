@@ -12,7 +12,7 @@ Automatically insert `rel=nofollow` and `target=_blank` to all the external link
 
 == Description ==
 
-<strong>If you need support to get this plugin installed or to have a customized version of the plugin please send us an email to this address <a href="mailto:contact@cybernetikz.com">contact@cybernetikz.com</a></strong>.
+<strong>If you need paid support to get this plugin installed or to have a customized version of the plugin please send us an email to this address <a href="mailto:contact@cybernetikz.com">contact@cybernetikz.com</a></strong>.
 
 Just simple, if you use this plugins, `rel=nofollow` and `target=_blank` will be insert automatically, for all the external links of your website posts or pages.
 
