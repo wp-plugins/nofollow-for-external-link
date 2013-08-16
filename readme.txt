@@ -4,7 +4,7 @@ Contributors: cybernetikz
 Donate link: 
 Tags: nofollow,link,rel,rel nofollow,seo,nofollow links,external link,external links,nofollow for external link
 Requires at least: 2.9.2
-Tested up to: 3.4.2
+Tested up to: 3.6
 Stable tag: 1.0
 License: GPL2
 
