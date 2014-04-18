@@ -17,7 +17,7 @@ function cn_nf_url_parse( $content ) {
 	if(preg_match_all("/$regexp/siU", $content, $matches, PREG_SET_ORDER)) {
 		if( !empty($matches) ) {
 			
-			$srcUrl = get_option('siteurl');
+			$srcUrl = get_option('home');
 			for ($i=0; $i < count($matches); $i++)
 			{
 			
