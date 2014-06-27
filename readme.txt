@@ -24,7 +24,7 @@ Just simple, if you use this plugins, `rel=nofollow` and `target=_blank` will be
 >
 > <strong>c. Auditing your wordpress theme & hosting environment</strong>
 >
-> <strong>d. Google analytics & webmaster tools</strong>
+> <strong>d. Google analytics & webmaster tools support</strong>
 >
 > please send an email to this address <a href="mailto:support@cybernetikz.com">support@cybernetikz.com</a>
 
