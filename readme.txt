@@ -8,7 +8,7 @@ Tested up to: 4.2.3
 Stable tag: 1.1
 License: GPL2
 
-Automatically insert `rel=nofollow` and `target=_blank` to all the external links into your website posts or pages. Also you can <strong>exclude domains</strong>, not to add `rel=nofollow` for the selected external links.
+Automatically insert `rel=nofollow` and `target=_blank` to all the external links into your website posts or pages. Support exclude domains.
 
 == Description ==
 
@@ -31,8 +31,10 @@ Just simple, if you use this plugins, `rel=nofollow` and `target=_blank` will be
 = Feature =
 * Add `rel=nofollow` for all the external link of your website posts/pages.
 * Add `target=_blank` for all the external link of your website posts/pages.
-* You can <strong>exclude domains</strong>, not to add `rel=nofollow` for the selected external links. <strong>(New Feature)</strong>
-* This plugins will not add `rel=nofollow` or `target=_blank` to any #read-more or #gotop type links.
+* You can <strong>exclude domains</strong>, not to add `rel=nofollow` for the selected external links.
+* Support WordPress multisite.
+* Also works for custom post type content.
+* This plugins will not add `rel=nofollow` or `target=_blank` to any `href=#read-more` or `href=#gotop` type links.
 * This plugins will not add `rel=nofollow` or `target=_blank` any of the internal link of your website posts/pages.
 * If you already added `rel=dofollow` or `rel=nofollow` to any post manually, this plugins will not add `rel=nofollow` for that post.
 * If you already added `target=_blank` to any post manually, this plugins will not add `target=_blank` for that post.
@@ -53,10 +55,13 @@ Wating for your valuable feedback/comments.
 Ques. Can i exclude domain not to add `rel=nofollow`? How can i add domain names, for those links i don't want to add `rel=nofollow`?
 Ans: Yes now you can exclude domain names. Please go to WordPress Admin Panel -> Settings -> NoFollow ExtLinks, and follow instructions.
 
+Ques. Does this plugins works for custom post type content?
+Ans: Yes it does.
+
 == Screenshots ==
 
-1. see how the `rel=nofollow` inserted to all the external links
-2. options page for Exclude Domains
+1. See how the `rel=nofollow` inserted to all the external links.
+2. Options page for Exclude Domains.
 
 == Changelog ==
 
