@@ -8,7 +8,7 @@ Tested up to: 4.2.3
 Stable tag: 1.1
 License: GPL2
 
-Automatically insert `rel=nofollow` and `target=_blank` to all the external links into your website posts or pages. Support exclude domains.
+Automatically insert `rel=nofollow` and `target=_blank` to all the external links into your website posts or pages. Also support exclude domains.
 
 == Description ==
 
@@ -53,13 +53,13 @@ Wating for your valuable feedback/comments.
 
 == Frequently Asked Questions ==
 
-Ques. Can i exclude domain not to add `rel=nofollow`? How can i add domain names, for those links i don't want to add `rel=nofollow`?
+<strong>Ques.</strong> Can i exclude domain not to add `rel=nofollow`? How can i add domain names, for those links i don't want to add `rel=nofollow`?
 
-Ans: Yes now you can exclude domain names. Please go to WordPress Admin Panel -> Settings -> NoFollow ExtLinks, and follow instructions.
+<strong>Ans:</strong> Yes now you can exclude domain names. Please go to WordPress Admin Panel -> Settings -> NoFollow ExtLinks, and follow instructions.
 
-Ques. Does this plugins works for custom post type content?
+<strong>Ques.</strong> Does this plugins works for custom post type content?
 
-Ans: Yes it does.
+<strong>Ans:</strong> Yes it does.
 
 == Screenshots ==
 
