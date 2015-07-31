@@ -52,10 +52,13 @@ Wating for your valuable feedback/comments.
 5. Now check the external links will open in new window and `rel=nofollow` added.
 
 == Frequently Asked Questions ==
+
 Ques. Can i exclude domain not to add `rel=nofollow`? How can i add domain names, for those links i don't want to add `rel=nofollow`?
+
 Ans: Yes now you can exclude domain names. Please go to WordPress Admin Panel -> Settings -> NoFollow ExtLinks, and follow instructions.
 
 Ques. Does this plugins works for custom post type content?
+
 Ans: Yes it does.
 
 == Screenshots ==
