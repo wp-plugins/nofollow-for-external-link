@@ -3,7 +3,7 @@
 Plugin Name: Nofollow for external link
 Plugin URI: http://www.cybernetikz.com
 Description: Just simple, if you activate this plugins, <code>rel=&quot;nofollow&quot;</code> and <code>target=&quot;_blank&quot;</code> will be added automatically, for all the external links of your website <strong>posts</strong> or <strong>pages</strong>. Also you can <strong>exclude domains</strong>, not to add <code>rel=&quot;nofollow&quot;</code> for the selected external links.
-Version: 1.1
+Version: 1.1.1
 Author: CyberNetikz
 Author URI: http://www.cybernetikz.com
 License: GPL2
@@ -53,6 +53,7 @@ function cn_nf_url_parse( $content ) {
 			//$ownDomain = get_option('home');
 			$ownDomain = $_SERVER['HTTP_HOST'];
 			
+			$exclude_domains_list = array();
 			if(get_option('cn_nf_exclude_domains')!='') {
 				$exclude_domains_list = explode(",",get_option('cn_nf_exclude_domains'));
 			}

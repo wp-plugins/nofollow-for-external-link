@@ -5,10 +5,10 @@ Donate link:
 Tags: nofollow,link,rel=nofollow,rel nofollow,seo,nofollow links,external link,external links,nofollow for external link,nofollow external link,nofollow external links
 Requires at least: 2.9.2
 Tested up to: 4.2.3
-Stable tag: 1.1
+Stable tag: 1.1.1
 License: GPL2
 
-Automatically insert `rel=nofollow` and `target=_blank` to all the external links into your website posts or pages. Also support exclude domains.
+Automatically insert `rel=nofollow` and `target=_blank` to all the external links into your website posts or pages. Support exclude domains.
 
 == Description ==
 
@@ -52,14 +52,11 @@ Wating for your valuable feedback/comments.
 5. Now check the external links will open in new window and `rel=nofollow` added.
 
 == Frequently Asked Questions ==
+Ques. Can i exclude domain not to add `rel=nofollow`? How can i add domain names, for those links i don't want to add `rel=nofollow`?
+Ans: Yes now you can exclude domain names. Please go to WordPress Admin Panel -> Settings -> NoFollow ExtLinks, and follow instructions.
 
-<strong>Ques.</strong> Can i exclude domain not to add `rel=nofollow`? How can i add domain names, for those links i don't want to add `rel=nofollow`?
-
-<strong>Ans:</strong> Yes now you can exclude domain names. Please go to WordPress Admin Panel -> Settings -> NoFollow ExtLinks, and follow instructions.
-
-<strong>Ques.</strong> Does this plugins works for custom post type content?
-
-<strong>Ans:</strong> Yes it does.
+Ques. Does this plugins works for custom post type content?
+Ans: Yes it does.
 
 == Screenshots ==
 
@@ -67,6 +64,9 @@ Wating for your valuable feedback/comments.
 2. Options page for Exclude Domains.
 
 == Changelog ==
+
+= 1.1.1 =
+* PHP notice/warning remove/fix.
 
 = 1.1 =
 * Exclude Domains feature added.
