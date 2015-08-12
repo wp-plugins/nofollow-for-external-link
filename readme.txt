@@ -4,7 +4,7 @@ Contributors: cybernetikz
 Donate link: 
 Tags: nofollow,link,rel=nofollow,rel nofollow,seo,nofollow links,external link,external links,nofollow for external link,nofollow external link,nofollow external links
 Requires at least: 2.9.2
-Tested up to: 4.2.3
+Tested up to: 4.2.4
 Stable tag: 1.1.1
 License: GPL2
 
@@ -16,7 +16,7 @@ Just simple, if you use this plugins, `rel=nofollow` and `target=_blank` will be
 
 > <strong>PAID SUPPORT ($30/Hr, We ACCEPT PAYPAL )</strong>
 >
-> We assume most of the users would find it easy to install & use this plugin but those who needs support on any of the following:
+> We assume most of the users would find it easy to install & use this plugin but those who needs <strong>PAID SUPPORT</strong> on any of the following:
 >
 > <strong>a. Get the plugin installed </strong>
 >
