@@ -16,7 +16,7 @@ Just simple, if you use this plugins, `rel=nofollow` and `target=_blank` will be
 
 > <strong>PAID SUPPORT ($30/Hr, We ACCEPT PAYPAL )</strong>
 >
-> We assume most of the users would find it easy to install & use this plugin but those who needs <strong>PAID SUPPORT</strong> on any of the following:
+> We assume most of the users would find it easy to install & use this plugin but those who needs <strong><em>PAID SUPPORT</em></strong> on any of the following:
 >
 > <strong>a. Get the plugin installed </strong>
 >
