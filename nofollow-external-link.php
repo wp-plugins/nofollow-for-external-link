@@ -3,11 +3,51 @@
 Plugin Name: Nofollow for external link
 Plugin URI: http://www.cybernetikz.com
 Description: Just simple, if you activate this plugins, <code>rel=&quot;nofollow&quot;</code> and <code>target=&quot;_blank&quot;</code> will be added automatically, for all the external links of your website <strong>posts</strong> or <strong>pages</strong>. Also you can <strong>exclude domains</strong>, not to add <code>rel=&quot;nofollow&quot;</code> for the selected external links.
-Version: 1.1.1
+Version: 1.1.2
 Author: CyberNetikz
 Author URI: http://www.cybernetikz.com
 License: GPL2
 */
+
+function cn_nf_admin_sidebar() {
+
+	$banners = array(
+		array(
+			'url' => 'http://www.cybernetikz.com/wordpress-magento-plugins/wordpress-plugins/?utm_source=nofollow-for-external-link&utm_medium=banner&utm_campaign=wordpress-plugins',
+			'img' => 'banner-1.jpg',
+			'alt' => 'Banner 1',
+		),
+		array(
+			'url' => 'http://www.cybernetikz.com/portfolio/web-development/wordpress-website/?utm_source=nofollow-for-external-link&utm_medium=banner&utm_campaign=wordpress-plugins',
+			'img' => 'banner-2.jpg',
+			'alt' => 'Banner 2',
+		),
+		array(
+			'url' => 'http://www.cybernetikz.com/seo-consultancy/?utm_source=nofollow-for-external-link&utm_medium=banner&utm_campaign=wordpress-plugins',
+			'img' => 'banner-3.jpg',
+			'alt' => 'Banner 3',
+		),
+	);
+	//shuffle( $banners );
+	?>
+	<div class="cn_admin_banner">
+	<?php
+	$i = 0;
+	foreach ( $banners as $banner ) {
+		echo '<a target="_blank" href="' . esc_url( $banner['url'] ) . '"><img width="261" height="190" src="' . plugins_url( 'images/' . $banner['img'], __FILE__ ) . '" alt="' . esc_attr( $banner['alt'] ) . '"/></a><br/><br/>';
+		$i ++;
+	}
+	?>
+	</div>
+<?php
+}
+
+function cn_nf_admin_style() {
+	global $pluginsURI;
+	wp_register_style( 'cn_nf_admin_css', plugins_url( 'nofollow-for-external-link/css/admin-style.css' ) , false, '1.0' );
+	wp_enqueue_style( 'cn_nf_admin_css' );
+}
+add_action( 'admin_enqueue_scripts', 'cn_nf_admin_style' );
 
 add_action('admin_menu', 'cn_nf_plugin_menu');
 add_action( 'admin_init', 'register_cn_nf_settings' );
@@ -25,6 +65,8 @@ function cn_nf_option_page_fn() {
 	?>
 	<div class="wrap">
 	<h2>Nofollow for external link Options</h2>
+	<div class="content_wrapper">
+	<div class="left">
 	<form method="post" action="options.php" enctype="multipart/form-data">
 		<?php settings_fields( 'cn-nf-settings-group' ); ?>
 		<table class="form-table">
@@ -38,6 +80,11 @@ function cn_nf_option_page_fn() {
 		<input type="submit" class="button-primary" value="<?php _e('Save Changes') ?>" />
 		</p>
 	</form>
+    </div>
+    <div class="right">
+    <?php cn_nf_admin_sidebar(); ?>
+    </div>
+    </div>
 	</div>
 	<?php 
 }
