@@ -12,7 +12,7 @@ Automatically insert `rel=nofollow` and `target=_blank` to all the external link
 
 == Description ==
 
-Just simple, if you use this plugins, `rel=nofollow` and `target=_blank` will be insert automatically, for all the external links of your website posts or pages. Also you can <strong>exclude domains</strong>, not to add `rel=nofollow` for the selected external links.
+Just simple, if you use this plugin, `rel=nofollow` and `target=_blank` will be inserted automatically, for all the external links of your website posts or pages. Also you can <strong>exclude domains</strong>, not to add `rel=nofollow` for the selected external links.
 
 > <strong>PAID SUPPORT ($30/Hr, We ACCEPT PAYPAL )</strong>
 >
@@ -29,15 +29,15 @@ Just simple, if you use this plugins, `rel=nofollow` and `target=_blank` will be
 > please send an email to this address <a href="mailto:support@cybernetikz.com">support@cybernetikz.com</a>
 
 = Feature =
-* Add `rel=nofollow` for all the external link of your website posts/pages.
-* Add `target=_blank` for all the external link of your website posts/pages.
+* Add `rel=nofollow` for all the external links of your website posts/pages.
+* Add `target=_blank` for all the external links of your website posts/pages.
 * You can <strong>exclude domains</strong>, not to add `rel=nofollow` for the selected external links.
 * Support WordPress multisite.
 * Also works for custom post type content.
-* This plugins will not add `rel=nofollow` or `target=_blank` to any `href=#read-more` or `href=#gotop` type links.
-* This plugins will not add `rel=nofollow` or `target=_blank` any of the internal link of your website posts/pages.
-* If you already added `rel=dofollow` or `rel=nofollow` to any post manually, this plugins will not add `rel=nofollow` for that post.
-* If you already added `target=_blank` to any post manually, this plugins will not add `target=_blank` for that post.
+* This plugin will not add `rel=nofollow` or `target=_blank` to any `href=#read-more` or `href=#gotop` type links.
+* This plugin will not add `rel=nofollow` or `target=_blank` any of the internal link on your website posts/pages.
+* If you already added `rel=dofollow` or `rel=nofollow` to any post manually, this plugin will not add `rel=nofollow` for that post.
+* If you already added `target=_blank` to any post manually, this plugin will not add `target=_blank` for that post.
 
 You can visit our website <a href="http://www.cybernetikz.com/blog/wordpress-plugins-external-links-relnofollow/">cybernetikz.com</a>
 
